@@ -1,0 +1,35 @@
+.Chat2D-layout {
+  z-index: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.Chat1D-layout {
+  position: absolute;
+  z-index: 1;
+  top: 320px;
+  left: 10px;
+  width: 500px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Chat1D-title {
+  text-align: center;
+}
+
+.App-ChatInput {
+  position: absolute;
+  top: 530px;
+  left: 10px;
+}
+.chatInput {
+  text-align: left;
+  width: 492px;
+  height: 50px;
+}
